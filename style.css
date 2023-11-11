@@ -104,7 +104,7 @@ main{
 }
 
 .avatar{
-    width: 10rem;
+    width: 14rem;
     margin: 3rem auto 0;
     position: relative;
 }
@@ -116,8 +116,8 @@ main{
 }
 
 .avatar > img{
-    width: 10rem;
-    height: 11.5rem;
+    width: 13rem; /* 10 e 11.5 */
+    height: 14.5rem;
     object-fit: cover;
 
     clip-path: polygon(50% 0, 100% 25%, 98% 75%, 50% 100%, 0 75%, 0 25%);
@@ -141,6 +141,7 @@ a{
 
 p{
     margin-top: 2rem;
+    font-size: 1rem;
 }
 
 ul{
